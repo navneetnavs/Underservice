@@ -164,3 +164,35 @@
 .maintenance-content, .maintenance-content h1, .maintenance-content p {
   font-family: inherit;
 } 
+
+@media (max-width: 600px) {
+  .under-maintenance-container {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0;
+  }
+  .maintenance-content {
+    padding: 1.5rem 0.5rem;
+    max-width: 98vw;
+    border-radius: 18px;
+  }
+  .maintenance-content h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+  }
+  .maintenance-content p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  .maintenance-btn {
+    font-size: 1rem;
+    padding: 0.7em 1.2em;
+  }
+  .maintenance-icon-wrapper {
+    margin-bottom: 1rem;
+  }
+  .maintenance-gear {
+    width: 44px;
+    height: 44px;
+  }
+} 
