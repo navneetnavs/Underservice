@@ -47,7 +47,7 @@ const UnderMaintenance = () => {
             We are currently performing scheduled maintenance.<br />
             Please check back soon. Thank you for your patience!
           </p>
-          <a href="mailto:info@agiledge.eu" className="maintenance-btn fade-in" data-scroll data-scroll-delay="0.2">
+          <a href="mailto:navneetkumar1800242@gmail.com" className="maintenance-btn fade-in" data-scroll data-scroll-delay="0.2">
             Contact Support
           </a>
         </div>
